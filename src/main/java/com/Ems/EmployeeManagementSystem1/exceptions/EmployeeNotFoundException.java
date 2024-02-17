@@ -1,0 +1,8 @@
+package com.Ems.EmployeeManagementSystem1.exceptions;
+
+public class EmployeeNotFoundException extends RuntimeException{
+   public EmployeeNotFoundException(String message){
+        super(message);
+    }
+
+}
